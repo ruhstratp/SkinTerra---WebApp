@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const express = require('express');
+const jwt = require("jsonwebtoken");
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
@@ -13,11 +14,27 @@ const orderRoutes = require('./routes/orderRoutes');
 const cartRoutes = require('./routes/cartRoutes');
 const reviewRoutes = require('./routes/reviewRoutes');
 const contactRoutes = require('./routes/contactRoutes');
-const eventRoutes = require('./routes/eventRoutes');
 
 const connectionString = process.env.MONGODB_URI;
 const app = express();
 const port = process.env.PORT || 5001;
+
+
+app.get("/api/metabase-token", (req, res) => {
+  var METABASE_SITE_URL = "http://localhost:3001";
+  var METABASE_SECRET_KEY = "459251635cedfe51286af9ad4e1886cae2f53acf6199d676e7dfcd64007a14b0";
+  
+  var payload = {
+    resource: { dashboard: 1 },
+    params: {},
+    exp: Math.round(Date.now() / 1000) + (10 * 60) // 10 minute expiration
+  };
+  
+  var token = jwt.sign(payload, METABASE_SECRET_KEY);
+  var iframeUrl = METABASE_SITE_URL + "/embed/dashboard/" + token + "#bordered=true&titled=true";
+  
+  res.json({ iframeUrl });
+});
 
 // Middleware
 app.use(express.json());
@@ -42,7 +59,6 @@ app.use('/api/products', productRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/reviews', reviewRoutes);
-app.use('/api/events', eventRoutes);
 
 // route for handling contact form submissions
 app.post("/contact", async (req, res) => {
