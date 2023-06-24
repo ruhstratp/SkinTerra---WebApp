@@ -1,0 +1,125 @@
+.orders-page {
+  margin: 0 40px;
+  padding: 20px;
+}
+
+.orders-page h1 {
+  font-size: 2.5rem;
+  margin: 2.5rem auto 2.6rem;
+  text-align: center;
+  font-family: var(--font-family-abhaya_libre);
+}
+
+.orders-page table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+
+.orders-page thead th {
+  background-color: #f7f7f79b;
+  font-weight: bold;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+}
+
+.orders-page thead th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.orders-page thead th:last-child {
+  border-top-right-radius: 8px;
+}
+
+
+.orders-page tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.orders-page tbody td:first-child {
+  font-weight: bold;
+}
+
+.orders-page .status-delivered {
+  background-color: #4caf50;
+  color: white;
+}
+
+.orders-page .status-cancelled {
+  background-color: #f44336;
+  color: white;
+}
+
+.orders-page .status-default {
+  background-color: #e0e0e0;
+}
+
+.orders-page .status-shipped {
+  background-color: #ffc107;
+  color: white;
+}
+
+.orders-page .status-processing {
+  background-color: #9e9e9e;
+}
+
+.orders-page .background-slide {
+  background-image: linear-gradient(to left, rgb(184, 188, 184), rgba(255, 255, 255, 0.384));
+  background-repeat: no-repeat;
+  background-size: 200% auto;
+  animation: background-color-slide 2s forwards;
+}
+
+.orders-page .delete-button {
+  background-color: #ff2222;
+  color: white;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.orders-page .delete-button:hover {
+  background-color: #f44336;
+}
+
+.orders-page .order-id {
+  color: #2196f3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.orders-page .order-id:hover {
+  color: #0d47a1;
+}
+
+.orders-page .order-id:focus {
+  outline: none;
+}
+
+.orders-page .order-id:active {
+  transform: scale(0.95);
+}
+
+.orders-page .order-id:visited {
+  color: #2196f3;
+}
+
+.orders-page .order-id:visited:hover {
+  color: #0d47a1;
+}
+
+.orders-page .order-id:visited:focus {
+  outline: none;
+}

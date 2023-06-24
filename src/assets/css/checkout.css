@@ -1,0 +1,100 @@
+:root {
+  --font-family-abhaya_libre: "Abhaya Libre", serif;
+  --input-border-color: #ccc;
+  --input-focus-border-color: #007bff;
+  --button-background-color: #333;
+  --button-hover-background-color: #555;
+}
+
+.checkout-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  min-height: calc(100vh - 132px);
+}
+
+.checkout-page h1 {
+  font-family: var(--font-family-abhaya_libre);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.checkout-form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.checkout-text,
+.checkout-email,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 20px 5px 0;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.checkout-text:focus,
+.checkout-email:focus,
+select:focus {
+  border-color: var(--input-focus-border-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.checkout-btn {
+  background-color: var(--button-background-color);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+.checkout-btn:hover {
+  background-color: var(--button-hover-background-color);
+}
+
+.paypal-button-container {
+  margin-left: 300px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .checkout-page {
+    padding: 20px;
+  }
+
+  .form-row {
+    width: 100%;
+  }
+}
+

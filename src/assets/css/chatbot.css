@@ -1,0 +1,202 @@
+* {
+    --primaryGradient: linear-gradient(93.12deg, #f9dac291 0.52%, #f6f4f4 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #f9dac2 -2.14%, #eeecec 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+    --primary: #efbebb;
+}
+
+/* ChatBox */
+.chatbox {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    border-radius: 10px;
+    /* resize: both; */
+    overflow: auto;
+}
+.chatbox__resizer {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0px; 
+    /* bottom: 0px; */
+    cursor: nwse-resize;
+    background: #0000000c; 
+}
+body.resizing {
+    user-select: none;
+  }
+  
+.doctor-photo{
+    height: 40px;
+    width: 40px;
+}
+
+/* cand este inchis */
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    background: #fbf8f8;
+    width: 300px;
+    height: 400px;
+    z-index: 0;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    transform: translateY(100%);
+}
+
+/* cand e deschis */
+.chatbox.chatbox_active {
+    transform: translateY(0);
+    z-index: 999;
+    opacity: 1;
+}
+
+
+/* header */
+.chatbox__header {
+    background: var(--primaryGradient);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: var(--primaryBoxShadow);
+}
+
+.chatbox__image_header {
+    margin-right: 10px;
+}
+
+.chatbox__heading_header {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.612);
+    font-weight: bold;
+    font-family: var(--font-family-actor);
+    font-style: normal;
+}
+
+.chatbox__description_header {
+    font-size: .9rem;
+    color: black;
+}
+
+/* Messages */
+.chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  
+  .messages__item {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    max-width: 70%;
+  }
+  
+  .messages__item_visitor {
+    margin-left: auto;
+    background: #E0E0E0;
+    border-radius: 20px 20px 0 20px;
+  }
+  
+  .messages__item_operator {
+    margin-right: auto;
+    background: var(--primary);
+    color: white;
+    border-radius: 20px 20px 20px 0;
+  }
+  .messages__item_operator a {
+    color: rgb(195, 249, 255);
+  }
+  
+
+/* footer */
+.chatbox__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background: var(--secondaryGradient);
+    box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+}
+
+.chatbox__footer input {
+    width: 80%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.chatbox__send_footer {
+    color: white;
+    font-size: 18px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.chatbox__footer input:focus,
+.chatbox__send_footer:focus {
+    outline: none;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+    /* padding: 10px; */
+    background: white;
+    border: none;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+    .messages__item:nth-last-child(1) {
+    animation: fade-in 0.3s ease forwards;
+    }
+    
+    @keyframes fade-in {
+    from {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    }
+    
+    .typing-dot {
+        font-size: 1.5em;
+        animation: chatbot-typing 1s infinite;
+        }
+        
+        @keyframes chatbot-typing {
+            0% {
+              opacity: 0.3;
+            }
+            20% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 0.3;
+            }
+          }
+          
+    
+
+
