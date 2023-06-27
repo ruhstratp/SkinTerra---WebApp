@@ -4,7 +4,6 @@ const userController = require('../controllers/userController');
 const authController = require('../Auth/authController');
 
 
-// Define routes for user entity
 router.get('/', userController.getAllUsers);
 router.get('/:id', userController.getUserById);
 router.post('/', userController.createUser);
