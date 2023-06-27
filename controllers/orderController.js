@@ -170,7 +170,7 @@ exports.updateOrderStatus = async (req, res) => {
       return res.status(404).json({ success: false, error: "Order not found" });
     }
 
-    // Create an object with the email subject and text for each status
+    // object with the email subject and text for each status
     const statusEmailData = {
       processing: {
         subject: 'Order Status Update - Processing',
@@ -195,9 +195,6 @@ exports.updateOrderStatus = async (req, res) => {
     if (status === 'shipped') {
       // Generate a random AWB number with 10 digits
       AWB = Math.floor(1000000000 + Math.random() * 9000000000).toString();
-
-      // Save the AWB in your order or tracking data (add your own code here)
-      // ...
 
       // Append the AWB number to the email text
       statusEmailData.shipped.text += ` The AWB for your order is ${AWB}.`;
