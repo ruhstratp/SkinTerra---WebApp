@@ -3,10 +3,10 @@ const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 587,
-  secure: false, // true for 465, false for other ports
+  secure: false,
   auth: {
-    user: process.env.EMAIL_USERNAME, // your Gmail username
-    pass: process.env.EMAIL_PASSWORD, // your Gmail password
+    user: process.env.EMAIL_USERNAME, 
+    pass: process.env.EMAIL_PASSWORD, 
   },
 });
 
@@ -16,7 +16,7 @@ async function sendMail(mailOptions) {
     info = await transporter.sendMail(mailOptions);
   } catch (error) {
     console.error("Failed to send email:", error);
-    throw error;  // this error needs to be caught and handled where sendMail is used
+    throw error;  
   }
   return info;
 }
