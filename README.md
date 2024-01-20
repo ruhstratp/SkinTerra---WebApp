@@ -1,6 +1,16 @@
 # SkinTerra-Frontend
 Web app designed to streamline the management of an online skincare store, complete with a dermatologist chatbot for personalized customer assistance.
 
+Just a little sneak peek of the web app:
+![register](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/5f89e210-01a5-41dc-9b0a-fedbe0b0b9f7)
+![login](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/f9677861-33e9-42bc-8a17-163c27761dc3)
+![homepage](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/326fa4a9-ea89-451c-aa1b-d0e332e24952)
+![dashboard](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/4944251c-13f2-48eb-83f1-64678589e5e0)
+![cart](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/c1012372-b18d-40d2-b21b-84d90d90d0ee)
+![allproducts](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/8b2d7cca-dabc-4f8a-8fc7-5e3fe2931806)
+![about](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/ccc41331-e946-4b74-a74a-eff34c38283a)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
