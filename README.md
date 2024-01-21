@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # SkinTerra-Chatbot
 
 ![chatbot_3](https://github.com/ruhstratp/SkinTerra-Chatbot/assets/32817506/ca1a004c-bb2c-48c8-b54d-f3e45b70b39e)
@@ -100,4 +101,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>>>>>>> frontend/main
+=======
+
 >>>>>>> frontend/main
