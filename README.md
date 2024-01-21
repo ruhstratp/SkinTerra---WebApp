@@ -1,5 +1,4 @@
 # SkinTerra-Frontend
-Web app designed to streamline the management of an online skincare store, complete with a dermatologist chatbot for personalized customer assistance.
 
 Just a little sneak peek of the web app:
 ![register](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/5f89e210-01a5-41dc-9b0a-fedbe0b0b9f7)
