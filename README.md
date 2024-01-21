@@ -6,7 +6,6 @@
 ![chatbot_1](https://github.com/ruhstratp/SkinTerra-Chatbot/assets/32817506/18b4ec81-12d5-4563-bc65-c57a82f7fa8f)
 =======
 # SkinTerra-Backend
-Web app designed to streamline the management of an online skincare store, complete with a dermatologist chatbot for personalised customer assistance.
 
 Some functionalities related to backend communication:
 
