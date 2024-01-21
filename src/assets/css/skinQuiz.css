@@ -1,0 +1,140 @@
+.quiz-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(233, 175, 191, 0.154) 25%, rgba(255, 255, 255, 0.4) 50%, rgba(233, 175, 191, 0.142) 75%);
+    background-color: #e0d2cb76;
+
+    /* background-image: url('../img/quiz4.jpg'); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    /* backdrop-filter: blur(5px); */
+    padding: 40px;
+    border-radius: 12px;
+    /* max-width: 600px;
+    margin: 0 auto; */
+    min-width: 500px;
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-question {
+    font-family: var(--font-family-actor);
+    margin-bottom: 30px;
+  }
+  
+  .quiz-question p {
+    font-family: var(--font-family-actor);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .quiz-options {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 10px; */
+    font-family: var(--font-family-actor);
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .quiz-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+  }
+  
+  .quiz-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .quiz-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .results h2{
+    font-family: var(--font-family-actor);
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 100px;
+  }
+  .emoji {
+    font-size: 34px;
+    margin-top: 10px;
+  }
+  
+  .quiz-button {
+    font-family: var(--font-family-actor);
+    outline: 0;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 150px;
+    /*background-color: #4d4d4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer; */
+    transition: background-color 0.3s;
+  }
+  
+  .quiz-button:hover {
+    outline: 0;
+    border: solid 2px rgba(39, 37, 37, 0.581) ;
+    background-color: white;
+    color: black;
+  }
+
+  .quiz-option:focus {
+    outline:0;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width to your desired value */
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .text-container {
+    max-width: 50%; /* You can adjust this value depending on the width of your text */
+    margin-right: 20px; /* Add some spacing between the text and the quiz */
+  }
+  

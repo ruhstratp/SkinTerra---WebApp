@@ -1,0 +1,17 @@
+.star-rating {
+  display: inline-flex;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star {
+  margin-right: 4px;
+}
+
+.star.filled {
+  color: gold;
+}
+
+.star:hover{
+  color: rgb(239, 212, 58);
+}

@@ -1,0 +1,418 @@
+:root { 
+    --abbey: #4f4f4f;
+    --alabaster: #fafafa;
+    --bistre: #3f2b1e;
+    --black: #000000;
+    --black-2: #00000066;
+    --bon-jour: #e0e0e0;
+    --bridesmaid: #fdf1e9;
+    --bridesmaid-2: #fdf2ea;
+    --cape-cod: #424242;
+    --chardon: #fff3f2;
+    --concrete: #f2f2f2;
+    --creole: #1e0e05;
+    --desert-storm: #f8f8f8;
+    --gray: #828282;
+    --mist-gray: #c4c4c4;
+    --rose-bud: #f9bba0;
+    --silver: #bdbdbd;
+    --star-dust: #a0a0a0;
+    --sundown: #ffb6b2;
+    --white: #ffffff;
+    --woodsmoke: #0d0d0d;
+    --woodsmoke-2: #0d0d0d7d;
+    --woody-brown: #47362b;
+   
+    --font-size-l: 16.1px;
+    --font-size-m: 16px;
+    --font-size-s: 14px;
+    --font-size-xl: 17px;
+    --font-size-xxl: 18px;
+    --font-size-xxxl: 20px;
+    --font-size-xxxxl: 36px;
+   
+    --font-family-abhaya_libre: "Abhaya Libre", Helvetica;
+    --font-family-abhaya_libre_extrabold-regular: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    --font-family-abhaya_libre_medium-regular: "Abhaya Libre Medium-Regular", Helvetica;
+    --font-family-abril_fatface: "Abril Fatface", Helvetica;
+    --font-family-abyssinica_sil: "Abyssinica SIL", Helvetica;
+    --font-family-aclonica: "Aclonica", Helvetica;
+    --font-family-actor: "Actor", Helvetica;
+    --font-family-inter: "Inter", Helvetica;
+  }
+  .abhayalibre-bold-bistre-16-1px {
+    color: var(--bistre);
+    font-family: var(--font-family-abhaya_libre);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .abhayalibreextrabold-regular-normal-woodsmoke-20px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abhaya_libre_extrabold-regular);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-woodsmoke-18px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-woodsmoke-17px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abhayalibreextrabold-regular-normal-desert-storm-20px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-abhaya_libre_extrabold-regular);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-desert-storm-17px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inter-normal-woodsmoke-14px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-desert-storm-16px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-woodsmoke-16px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-woodsmoke-20px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abyssinicasil-normal-woodsmoke-36px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abyssinica_sil);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-desert-storm-18px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-woodsmoke-36px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-woodsmoke-18px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-black-17px {
+    color: var(--black);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-silver-20px {
+    color: var(--silver);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-woodsmoke-20px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abyssinicasil-normal-desert-storm-40px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-abyssinica_sil);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-desert-storm-16px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-desert-storm-20px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-silver-18px {
+    color: var(--silver);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inter-medium-woodsmoke-15px {
+    color: var(--woodsmoke-2);
+    font-family: var(--font-family-inter);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .abhayalibre-bold-creole-40px {
+    color: var(--creole);
+    font-family: var(--font-family-abhaya_libre);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .abhayalibre-normal-woody-brown-24px {
+    color: var(--woody-brown);
+    font-family: var(--font-family-abhaya_libre);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abrilfatface-normal-woodsmoke-40px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abril_fatface);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abyssinicasil-normal-woodsmoke-24px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abyssinica_sil);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inter-medium-woodsmoke-14px {
+    color: var(--woodsmoke-2);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .actor-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-actor);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abhayalibreextrabold-regular-normal-desert-storm-24px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-abhaya_libre_extrabold-regular);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-gray-18px {
+    color: var(--gray);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abrilfatface-normal-alabaster-36px {
+    color: var(--alabaster);
+    font-family: var(--font-family-abril_fatface);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-desert-storm-20px {
+    color: var(--desert-storm);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abhayalibremedium-regular-normal-woodsmoke-20px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abhaya_libre_medium-regular);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abrilfatface-normal-woodsmoke-38px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abril_fatface);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abrilfatface-normal-woodsmoke-32px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abril_fatface);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abrilfatface-normal-woodsmoke-15px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-abril_fatface);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .abrilfatface-normal-sundown-14px {
+    color: var(--sundown);
+    font-family: var(--font-family-abril_fatface);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-woodsmoke-28px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-aclonica);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-abbey-18px {
+    color: var(--abbey);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .actor-normal-abbey-16px {
+    color: var(--abbey);
+    font-family: var(--font-family-actor);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-woodsmoke-16px {
+    color: var(--woodsmoke);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .aclonica-normal-cape-cod-16px {
+    color: var(--cape-cod);
+    font-family: var(--font-family-aclonica);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  

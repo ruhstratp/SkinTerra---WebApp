@@ -1,0 +1,444 @@
+
+/* LOGIN CSS */
+.login-form,
+.register-form {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 50px;
+  display: flex;
+  gap: 49px;
+  height: 600px;
+  left: 50%; /* Add this */
+  margin-top: 2rem; /* Add this */
+  transform: translateX(-50%); /* Add this */
+  overflow: hidden;
+  position: absolute;
+  top: 120px;
+  width: 1046px;
+}
+.auth-form-control{
+  outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width:380px;
+}
+.auth-form-control:focus{
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.link-primary{
+  cursor: pointer;
+}
+.link-primary.forgot{
+  margin-top: 10px;
+}
+.auth-form-transition {
+  transition: all 0.3s ease;
+}
+.forgot-form{
+    align-items: center;
+    background-color: #FCF5EF;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    width: 478px;
+}
+.forgot-text{
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.reset-btn{
+  cursor: pointer;
+  align-items: flex-start;
+  background-color: var(--sundown);
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 20px;
+  display: flex;
+  height: 47px;
+  justify-content: center;
+  margin-left: 0.32px;
+  margin-top: 10px;
+  min-width: 210px;
+  padding: 11px 39.3px;
+}
+.reset-btn:focus{
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 0.5px black;
+}
+
+.link-primary.backtologin{
+  padding-top: 25px;
+}
+  
+  .flex-col-11 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    margin-bottom: 23.0px;
+    margin-left: 45px;
+    min-height: 535px;
+    width: 478px;
+  }
+  
+  .login-title {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 18.0px;
+    min-height: 51px;
+    min-width: 376px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .overlap-group3-6 {
+    align-items: flex-end;
+    background-image: url(/src/assets/img/background.svg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-height: 447px;
+    padding: 28px 22.4px;
+    width: 478px;
+  }
+  
+  .sign-in-title {
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 68.03px;
+    min-height: 66px;
+    width: 184px;
+  }
+  
+  .overlap-group4-6 {
+    height: 299px;
+    position: relative;
+    width: 427px;
+  }
+  
+  .remain-connected-text {
+    left: 121px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 143px;
+    width: 211px;
+  }
+  
+
+  
+  .login-2 {
+    cursor: pointer;
+    align-items: flex-start;
+    background-color: var(--sundown);
+    border: 2px solid;
+    border-color: var(--black)!important;
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    justify-content: center;
+    left: 105px;
+    min-width: 210px;
+    padding: 11px 36.3px;
+    position: absolute;
+    top: 150px;
+    /* margin:auto;
+    padding:0; */
+    width: 100px;
+  }
+  .login-2:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 0.5px black;
+  }
+  
+  .overlap-group1-11 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--rose-bud);
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    left: 0;
+    min-width: 421px;
+    padding: 11.4px 24.3px;
+    position: absolute;
+    top: 69px;
+  }
+  
+  .password-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 20px;
+    width: 84px;
+  }
+  
+  .username-fill {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 299px;
+    position: absolute;
+    top: 0;
+    width: 427px;
+  }
+  
+  .overlap-group2-12 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--sundown);
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    margin-right: 6.0px;
+    min-width: 421px;
+    padding: 11px 24px;
+  }
+  
+  .e-mail-address-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 20px;
+    width: 151px;
+  }
+  
+  .dont-have-an-account {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 5.64px;
+    margin-top: 155px;
+    min-height: 20px;
+    width: 179px;
+  }
+  
+  .place-5 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 6.64px;
+    margin-top: 10px;
+    text-decoration: underline;
+    width: 82px;
+  }
+  
+  .login-img {
+    height: 672px;
+    object-fit: cover;
+    width: 474px;
+  }
+
+
+  /* REGISTER CSS */
+  /* .register-form {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 50px;
+    display: flex;
+    gap: 49px;
+    height: 600px;
+    left: 219px;
+    overflow: hidden;
+    position: absolute;
+    top: 157px;
+    width: 1046px;
+  } */
+  
+  .register-img {
+    height: 672px;
+    object-fit: cover;
+    width: 474px;
+  }
+  
+  .flex-col-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 30.0px;
+    min-height: 530px;
+    width: 478px;
+  }
+  
+  .register-title {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 0;
+    min-height: 51px;
+    min-width: 366px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .overlap-group5 {
+    align-items: center;
+    background-image: url(/src/assets/img/background.svg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    padding: 11.0px 28.0px;
+    width: 478px;
+  }
+  
+  .sign-up-text {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 68.03px;
+    margin-top: 20px;
+    min-height: 66px;
+    width: 184px;
+  }
+  
+  .overlap-group4 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--sundown);
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    margin-left: 0.64px;
+    margin-top: 8px;
+    min-width: 421px;
+    padding: 11px 24px;
+  }
+  
+  .e-mail-address {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 20px;
+    width: 151px;
+  }
+  
+  .overlap-group3 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--rose-bud);
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    margin-left: 0.64px;
+    margin-top: 16px;
+    min-width: 421px;
+    padding: 11.4px 24.3px;
+  }
+  
+  .password {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 20px;
+    width: 84px;
+  }
+  
+  .overlap-group-container {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    gap: 14px;
+    height: 49px;
+    margin-top: 16px;
+    min-width: 421px;
+  }
+  
+  .overlap-group2 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--sundown);
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    min-width: 203px;
+    padding: 11px 12.4px;
+  }
+  
+  .first-name {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 21px;
+    width: 154px;
+  }
+  
+  .overlap-group1 {
+    align-items: flex-start;
+    align-self: flex-end;
+    border: 2px solid;
+    border-color: var(--sundown);
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    min-width: 204px;
+    padding: 11px 30px;
+  }
+  
+  .last-name {
+    color: #0d0d0d7a;
+    font-family: var(--font-family-inter);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 21px;
+    width: 103px;
+  }
+  
+  .accept-terms-conditions {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 25.0px;
+    margin-top: 15px;
+    min-height: 20px;
+    width: 211px;
+  }
+  
+
+  
+  .register-2 {
+    cursor: pointer;
+    align-items: flex-start;
+    background-color: var(--sundown);
+    border: 2px solid;
+    border-color: var(--black);
+    border-radius: 20px;
+    display: flex;
+    height: 47px;
+    justify-content: center;
+    margin-left: 0.32px;
+    margin-top: 18px;
+    min-width: 210px;
+    padding: 11px 39.3px;
+/* 
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 21px;
+    width: 101px; */
+  }
+
+  .register-2:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 0.5px black;
+  }
+  
+  .already-have-an-account {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 35.0px;
+    margin-top: 21px;
+    min-height: 20px;
+    width: 211px;
+  }
+  
+  .login {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1.0px;
+    margin-top: 5px;
+    min-height: 20px;
+    text-decoration: underline;
+  }
+  

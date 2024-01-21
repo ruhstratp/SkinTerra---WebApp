@@ -1,0 +1,75 @@
+.about-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .about-page-container h1 {
+      /* margin-left: -90px; */
+    margin-top: 25px;
+    font-family: var(--font-family-abhaya_libre);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .about-page-content {
+    max-width: 600px;
+    text-align: center;
+  }
+  .about-page-content p {
+    font-family: var(--font-family-actor);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-page-content-card {
+    background-color: #efdebe95;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 6px 0px 6px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 100% 30px;
+    background-position: 0 12.5px;
+    line-height: 20px;
+  }
+  
+  .line-text {
+    position: relative;
+    z-index: 1;
+  }
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    position: relative;
+    animation: wink 2s ease-in-out 0.05s forwards;
+  }
+/*   
+  @keyframes wink {
+    0%, 100% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(-1, 1);
+    }
+  } */
+
+
+
+  @media only screen and (max-width: 768px) {
+    .about-page-content h1 {
+      font-size: 2rem;
+    }
+  
+    .about-page-content p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+  

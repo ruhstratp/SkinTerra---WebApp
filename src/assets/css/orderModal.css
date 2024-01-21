@@ -1,0 +1,71 @@
+.order-detail-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-detail-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .order-details label{
+    margin-top: 30px;
+  }
+  .close-btn {
+    margin-left: 90%;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid #333;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    background-color: #af0101c1;
+    color: #fff;
+  }
+  
+  .close-btn:focus {
+    outline: none;
+  }
+  
+  h4{
+    margin-top: 20px;
+  }
+  .status-select{
+    width: 30%;
+  }
+
+  .modal-product-name {
+    padding-right: 10px;
+  }
+  
+  .modal-product-quantity {
+    padding-right: 10px;
+  }
+  
+  .modal-product-price {
+    padding-right: 10px;
+  }
+  
+  
