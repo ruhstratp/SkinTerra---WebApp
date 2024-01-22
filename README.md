@@ -42,7 +42,6 @@ Check out the [Full Demo](https://youtu.be/YeZ_R3j-vm4) and get a glimpse of wha
 
 <p align="center">
   <img width="650" alt="Chatbot_3" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/39a033eb-3e52-467c-8ef9-57f01fac9fe5">
-  <img width="650" alt="Chatbot_2" src="https://github.com/ruhstratp/SkinTerra-Chatbot/assets/32817506/5b4fae08-c64f-476f-b526-7914f367f970">
   <img width="650" alt="Chatbot_1" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/0ac70e2d-4ec0-49ea-98f4-405fef6cc19b">
 </p>
 
