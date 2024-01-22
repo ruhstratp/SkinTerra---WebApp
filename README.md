@@ -1,34 +1,59 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# SkinTerra-Chatbot
+# SkinTerra: Elevate Your Skincare 🌿💖
 
-![chatbot_3](https://github.com/ruhstratp/SkinTerra-Chatbot/assets/32817506/ca1a004c-bb2c-48c8-b54d-f3e45b70b39e)
-<img width="1472" alt="chatbot_2" src="https://github.com/ruhstratp/SkinTerra-Chatbot/assets/32817506/5b4fae08-c64f-476f-b526-7914f367f970">
-![chatbot_1](https://github.com/ruhstratp/SkinTerra-Chatbot/assets/32817506/18b4ec81-12d5-4563-bc65-c57a82f7fa8f)
-=======
-# SkinTerra-Backend
+Welcome to **SkinTerra**, where beauty meets intelligence! My AI-powered skincare app is your go-to for a personalized experience:
 
-Some functionalities related to backend communication:
+🤖 **Chat with Your Dermatologist Chatbot**
 
-![invoice_2](https://github.com/ruhstratp/SkinTerra-Backend/assets/32817506/81453aa7-cca9-4be9-92da-d263be6db6cd)
-![image_123650291](https://github.com/ruhstratp/SkinTerra-Backend/assets/32817506/cf3e5fdc-cb42-48d6-8de7-05dc2b27795a)
-![forgot_ma![image_123650291](https://github.com/ruhstratp/SkinTerra-Backend/assets/32817506/16bcadb5-1c8e-4daa-8b0e-33f72f3f30a5)
-il](https://github.com/ruhstratp/SkinTerra-Backend/assets/32817506/eb126ba9-2e55-419a-9ad0-9a9e7d3cc2dd)
-![contact_mail](https://github.com/ruhstratp/SkinTerra-Backend/assets/32817506/6e34065c-6d84-432c-ad60-ecb129d543c9)
+Get expert advice anytime, anywhere. The dermatologist chatbot is your virtual skincare companion.
 
->>>>>>> backend/main
-=======
-# SkinTerra-Frontend
+🔍 **Discover Your Skin Type**
 
-Just a little sneak peek of the web app:
-![register](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/5f89e210-01a5-41dc-9b0a-fedbe0b0b9f7)
-![login](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/f9677861-33e9-42bc-8a17-163c27761dc3)
-![homepage](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/326fa4a9-ea89-451c-aa1b-d0e332e24952)
-![dashboard](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/4944251c-13f2-48eb-83f1-64678589e5e0)
-![cart](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/c1012372-b18d-40d2-b21b-84d90d90d0ee)
-![allproducts](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/8b2d7cca-dabc-4f8a-8fc7-5e3fe2931806)
-![about](https://github.com/ruhstratp/SkinTerra-Frontend/assets/32817506/ccc41331-e946-4b74-a74a-eff34c38283a)
+Take a quick quiz to unlock a tailored routine—because your skin is unique.
+
+🛒 **Easy Shopping & Payments**
+
+Shop effortlessly and pay with cash or PayPal.
+
+💌 **Charm in Your Inbox**
+
+Receive essential updates and information directly in your inbox.
+
+🎨 **Stunning UI/UX**
+
+Crafted with Figma for a seamless and engaging experience.
+
+🚀 **Tech Stack**
+
+MERN (React, Node, Express, MongoDB), Python (NLTK, PyTorch, TensorFlow, spaCy), and Flask for AI.
+
+👀 **Sneak Peek:**
+
+Check out the [Full Demo](https://youtu.be/YeZ_R3j-vm4) and get a glimpse of what awaits you:
+
+<p align="center">
+  <img width="650" alt="Login" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/bcb0b28e-549d-4383-8ac2-81d01abf06e0">
+  <img width="650" alt="Homepage" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/bf71dc62-aec3-45be-94aa-87337d1fce8c">
+  <img width="650" alt="Dashboard" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/c1794811-8486-4cec-a12b-6e116d01ff18">
+  <img width="650" alt="Cart" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/1fab8e49-8df9-4c9d-b407-bafe74899ec4">
+  <img width="650" alt="About" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/48d14cea-118e-485e-9b30-3d029f363af3">
+</p>
+
+*Example of interaction with the dermatologist chatbot:*
+
+<p align="center">
+  <img width="650" alt="Chatbot_3" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/39a033eb-3e52-467c-8ef9-57f01fac9fe5">
+  <img width="650" alt="Chatbot_2" src="https://github.com/ruhstratp/SkinTerra-Chatbot/assets/32817506/5b4fae08-c64f-476f-b526-7914f367f970">
+  <img width="650" alt="Chatbot_1" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/0ac70e2d-4ec0-49ea-98f4-405fef6cc19b">
+</p>
+
+*Some functionalities related to backend communication:*
+
+<p align="center">
+  <img width="650" alt="Invoice_2" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/459840b0-51de-4ae5-a46d-f27596a25b5d">
+  <img width="650" alt="Image_123650291" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/3c864883-7ae1-464e-9d09-40813e6b7076">
+  <img width="650" alt="Contact_Mail" src="https://github.com/ruhstratp/SkinTerra-WebApp/assets/32817506/e4b83401-1f42-4c5b-8ce0-d9b6c5e0a8e2">
+</p>
+
 
 
 # Getting Started with Create React App
