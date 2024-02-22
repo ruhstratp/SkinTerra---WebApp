@@ -22,7 +22,7 @@ const port = process.env.PORT || 5001;
 
 app.get("/api/metabase-token", (req, res) => {
   var METABASE_SITE_URL = "http://localhost:3001";
-  var METABASE_SECRET_KEY = "459251635cedfe51286af9ad4e1886cae2f53acf6199d676e7dfcd64007a14b0";
+  var METABASE_SECRET_KEY = "yoursecretkey";
   
   var payload = {
     resource: { dashboard: 1 },
